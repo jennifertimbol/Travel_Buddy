@@ -1,0 +1,18 @@
+.jumbotron {
+    background-image: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=933&q=80');
+    background-size: cover;
+    height: 500px;
+}
+
+.reviews {
+    border: 3px solid #E6E6E6;
+    height: 140px;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.reviews h5 {
+    color: #2773BB;
+    font-weight: bold;
+}

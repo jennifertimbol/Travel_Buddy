@@ -5,37 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <title>Travel Buddy</title>
 </head>
 
 <body>
-    <header class="jumbotron jumbotron-fluid bg-warning">
+    <header class="jumbotron jumbotron-fluid">
         <div class="row row-content">
-            <div class="col col-xs-6 col-sm-6 col-md-10">
+            <div class="col col-xs-6 col-sm-6 col-md-10 pl-5">
                 <a href="#">
-                    <h4 class="pl-4 text-white">Write a Review</h4>
+                    <h4 class="pl-4 text-white">Write a Review</h5>
                 </a>
             </div>
             <div class="col col-xs-6 col-sm-6 col-md-2 ml-auto">
                 <button class="btn btn-primary">Register</button>
                 <button class="btn btn-primary">Login</button>
+                <a role="button" id="notificationsButton">
+                    <i class="fa fa-bell"></i>
+                </a>
             </div>
         </div>
         <div class="row d-flex justify-content-center text-center">
-            <div class="col col-md-12">
+            <div class="col col-md-12 mt-5">
                 <h1>Travel Buddy</h1>
             </div>
         </div>
+        <div class="row d-flex justify-content-center text-center mt-4">
+            <h3>Explore your next city</h3>
+        </div>
+        <form action="">
+            <div class="row form-group d-flex justify-content-center text-center mt-2">
+                <div class="col col-sm-3">
+                    <input type="text" class="form-control" placeholder="State">
+                </div>
+                <div class="col col-sm-3">
+                    <input type="text" class="form-control" placeholder="City">
+                </div>
+                <div class="col col-sm-3">
+                    <input type="text" class="form-control" placeholder="Type">
+                </div>
+                <a class="bg-white p-2" role="button" id="searchButton">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+        </form>
     </header>
     <main>
         <div class="row d-flex justify-content-center text-center">
-            <h3>Explore your next city!</h3>
-        </div>
-        <div class="row form-group">
             <div class="col">
-                <form action=""></form>
+                <h4>Check out these reviews in your area</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col col-3 reviews">
+                <h5>Bowling</h5>
+            </div>
+            <div class="col col-3 reviews">
+                <h5>Rooftop Bar</h5>
+            </div>
+            <div class="col col-3 reviews">
+                <h5>Art Museum</h5>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col col-3 reviews">
+                <h5>Rock Climbing</h5>
+            </div>
+            <div class="col col-3 reviews">
+                <h5>Seapot Hot Pot</h5>
+            </div>
+            <div class="col col-3 reviews">
+                <h5>Pier 39</h5>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col col-3 reviews">
+                <h5>Rock Climbing</h5>
+            </div>
+            <div class="col col-3 reviews">
+                <h5>Rock Climbing</h5>
+            </div>
+            <div class="col col-3 reviews">
+                <h5>Rock Climbing</h5>
             </div>
         </div>
     </main>
