@@ -16,3 +16,13 @@
     color: #2773BB;
     font-weight: bold;
 }
+
+.footer {
+    display: inline-block;
+}
+
+#footer .col {
+    background-color: #457b9d;
+    height: 80px;
+    padding-top: 10px;
+}
